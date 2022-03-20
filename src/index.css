@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('min.jpg');
+  background-size: cover;
+}
+body,
+input,
+button {
+  font-family: Roboto;
+  font-weight: 300;
+  color: #fff;
+}
+
+.App {
+  position: absolute;
+  padding: 10px 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+
+  background: rgba(168, 168, 168, 0.123);
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.068);
+}
+h2 {
+  font-weight: 500;
+  font-size: 2.5em;
+}
+.listEntry-container:hover {
+  border: rgba(255, 255, 255, 0.288) 1px solid;
+}
+.listEntry-container {
+  border: transparent 1px solid;
+  border-radius: 5px;
+  padding-left: 5px;
+  align-items: baseline;
+  transition: 1s ease;
+}
+.list-container,
+.lists-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.newEntry-container {
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+.newEntry-container,
+.listEntry-container,
+.lists-entry {
+  width: 100%;
+}
+
+.newEntry-container form,
+.listEntry-container,
+.listEntry-container form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  animation: slidein 0.5s forwards;
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+input {
+  border: none;
+  border-radius: 4px;
+  flex: 1;
+  padding: 0 5px;
+  transition: 0.4s ease;
+  margin-right: 4px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.322);
+}
+input:focus {
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: rgba(255, 255, 255, 0.651);
+}
+button {
+  border: none;
+  outline: none;
+  margin: 2px;
+  padding: 5px 7px;
+  border-radius: 4px;
+  transition: 0.4s ease;
+  font-size: 1em;
+  background-color: rgba(255, 255, 255, 0.192);
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.651);
+  cursor: pointer;
+  color: black;
+}
+
+span,
+input {
+  font-size: 1.2em;
+}
