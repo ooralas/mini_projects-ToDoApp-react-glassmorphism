@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mini_projects-react-ToDoApp-glassmorphism/static/css/main.0cd9bf9f.css",
-    "main.js": "/mini_projects-react-ToDoApp-glassmorphism/static/js/main.55bc687d.js",
-    "static/media/min.jpg": "/mini_projects-react-ToDoApp-glassmorphism/static/media/min.f930197d04024a40dea2.jpg",
-    "index.html": "/mini_projects-react-ToDoApp-glassmorphism/index.html",
-    "main.0cd9bf9f.css.map": "/mini_projects-react-ToDoApp-glassmorphism/static/css/main.0cd9bf9f.css.map",
-    "main.55bc687d.js.map": "/mini_projects-react-ToDoApp-glassmorphism/static/js/main.55bc687d.js.map"
+    "main.css": "/ToDoApp/static/css/main.0290332a.css",
+    "main.js": "/ToDoApp/static/js/main.20c1e400.js",
+    "static/media/min.jpg": "/ToDoApp/static/media/min.f930197d04024a40dea2.jpg",
+    "index.html": "/ToDoApp/index.html",
+    "main.0290332a.css.map": "/ToDoApp/static/css/main.0290332a.css.map",
+    "main.20c1e400.js.map": "/ToDoApp/static/js/main.20c1e400.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd9bf9f.css",
-    "static/js/main.55bc687d.js"
+    "static/css/main.0290332a.css",
+    "static/js/main.20c1e400.js"
   ]
 }
