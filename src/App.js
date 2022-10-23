@@ -1,3 +1,4 @@
+import './App.css'
 import List from './Component/list/list'
 
 function App() {
